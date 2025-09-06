@@ -31,7 +31,7 @@ int main()
     }
     dis[0] = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n-1; i++)
     {
         for (auto ed : edge_list)
         {
